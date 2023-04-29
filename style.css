@@ -1,0 +1,49 @@
+
+#cheatsheet {
+    font-size:600%;
+    margin-top: 100px;
+    margin-left: 60px;
+
+}
+
+nav {
+    margin-left: 60px;
+    font-size: 190%;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+h2 {
+    font-size: 400%;
+    margin-left: 60px;
+
+}
+
+h3 {
+    font-size: 250%;
+    margin-left: 60px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(255, 255, 255);
+    width: 50%;
+    margin-bottom: 100px;
+    margin-left: 110px;
+    font-size: 190%;
+    text-align: justify;
+}
+
+th {
+    background-color: rgb(204, 224, 218);
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.code {
+    font-family: monospace;
+}

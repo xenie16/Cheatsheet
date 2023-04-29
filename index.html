@@ -1,0 +1,198 @@
+<!DOCTYPE html> 
+<html> 
+  <head> 
+    <title>Cheatsheet</title> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="style.css"> 
+    <script src="script.js"></script> 
+  </head> 
+
+
+  <body> 
+    <div class="header"> 
+      <h1 id="cheatsheet">Cheatsheet</h1> 
+      <nav> 
+        <ul> 
+          <li><a href="#tables">Tables</a></li> 
+          <li><a href="#">Menu Item 2</a></li> 
+          <li><a href="#">Menu Item 3</a></li> 
+        </ul> 
+      </nav> 
+    </div> 
+    <div class="content"> 
+
+      <!--Tables-->
+
+      <h2 id="table">Tables</h2> 
+      <h3>Tags</h3>
+      <table>
+        <thead>
+          <tr class="titles">
+            <th>Tag</th>
+            <th>Name</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr class="table">
+            <td class="code">&lt;table&gt;</td>
+            <td>Table</td>
+            <td>This is the wrapper element for all HTML tables.</td>
+          </tr>
+
+          <tr class="table head">
+            <td class="code">&lt;thead&gt;</td>
+            <td>Table head</td>
+            <td>This tag is used to group one or more &lt;th&gt; elements into 
+              a header for a table. The &lt;thead&gt; element must be used within 
+              a &lt;table&gt; element, and it typically appears before the first 
+              &lt;tbody&gt; element. It gives a clear visual distinction between 
+              the table header and the table body.</td>
+          </tr>
+
+          <tr class="table header">
+            <td class="code">&lt;th&gt;</td>
+            <td>Table header</td>
+            <td>This tag is used to define a header cell in a table. It must be used 
+              within a &lt;tr&gt; element as a child element to define the header row. 
+              By using the &lt;th&gt; element, you can create a row in a table that 
+              stands out and visually separates the header information from the main data. </td>
+          </tr>
+
+          <tr class="table body">
+            <td class="code">&lt;tbody&gt;</td>
+            <td>Table body</td>
+            <td>This tag is used to group one or more &lt;tr&gt; elements into 
+              the main body of a table. The &lt;tbody&gt; element must be used within 
+              a &lt;table&gt; element, and it typically appears after the &lt;thead&gt; 
+              element. It gives a clear visual distinction between the table header 
+              and the table body.</td>
+          </tr>
+
+          <tr class="table foot">
+            <td class="code">&lt;tfoot&gt;</td>
+            <td>Table head</td>
+            <td>This tag is used to group one or more &lt;tr&gt; elements into 
+              the footer for a table. The &lt;tfoot&gt; element must be used within 
+              a &lt;table&gt; element, and it typically appears after the last 
+              &lt;tbody&gt; element. It gives a clear visual distinction between 
+              the table body and the table footer. This can be usefol for displaying 
+              summary information or totals at the bottom of a table.</td>
+          </tr>
+
+          <tr class="table row">
+            <td class="code">&lt;tr&gt;</td>
+            <td>Table row</td>
+            <td>This element must be used within a &lt;table&gt; element and it typically 
+              contains one or more &lt;td&gt; or &lt;th&gt; elements to define the cells 
+              in the row. By using the &lt;tr&gt; element, you can create a structured 
+              layout for tabular data, which can be styled and manipulated using CSS and 
+              JavaScript.</td>
+          </tr>
+
+          <tr class="table data">
+            <td class="code">&lt;td&gt;</td>
+            <td>Table data</td>
+            <td>This tag is used to define table data in an HTML table. The 
+              element must be used within a &lt;tr&gt; (table row) element to 
+              define the cells in a row. The conent of the cell can include text, 
+              images, links, or other HTML elements.</td>
+          </tr>
+
+          <tr class="caption">
+            <td class="code">&lt;caption&gt;</td>
+            <td>Caption</td>
+            <td>A table caption is a description that provides context and summary information 
+              for a table. It usually appears at the top of the table. It must be written before 
+              &lt;thead&gt;.</td>
+          </tr>
+
+          <tr class="colgroup">
+            <td class="code">&lt;colgroup&gt;</td>
+            <td>Column group</td>
+            <td>This tag is used to define a group of columns in a table. It allows you 
+              to apply formatting and styling to a group of columns at once, rather than 
+              having to apply the styling to each individual column separately.</td>
+          </tr>
+
+          <tr class="col">
+            <td class="code">&lt;col&gt;</td>
+            <td>Column</td>
+            <td>This tag defines a single column within a table. It must be used within a 
+              &lt;colgroup&gt; element, and it's typically used to apply styling or formatting 
+              to a group of columns within a table.</td>
+          </tr>
+        </tbody>
+      </table> 
+
+
+      <h3>Attributes</h3>
+      <table>
+        <thead>
+          <tr id="titles">
+            <th>Tag</th>
+            <th>Name</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="colspan">
+            <td class="code">colspan</td>
+            <td>Column span</td>
+            <td>colspan is an attribute that can be applied to a &lt;td&gt; or &lt;th&gt; 
+              element to specify how many columns the cells should span. This allows you 
+              to merge adjacent cells in a row to create a larger cell that spans multiple 
+              columns.</td>
+          </tr>
+
+          <tr class="rowspan">
+            <td class="code">rowspan</td>
+            <td>Row span</td>
+            <td>Rowspan is an attribute that can be applied to a &lt;td&gt; or &lt;th&gt; 
+              element to specify how many rows the cells should span. This allows you 
+              to merge adjacent cells in a row to create a larger cell that spans multiple 
+              rows.</td>
+          </tr>
+
+          <tr class="border">
+            <td class="code">border</td>
+            <td>Border</td>
+            <td>Specifies the border around the table and its cells.</td>
+          </tr>
+
+          <tr class="cellpadding">
+            <td class="code">cellpadding</td>
+            <td>Cellpadding</td>
+            <td>Specifies the amount of space between the cell content and the cell wall.</td>
+          </tr>
+
+          <tr class="width">
+            <td class="code">width</td>
+            <td>Width</td>
+            <td>Specifies the width of the table in pixels or as a percentage of the available space.</td>
+          </tr>
+
+          <tr class="height">
+            <td class="code">height</td>
+            <td>Height</td>
+            <td>Specifies the height of the table in pixels or as a percentage of the available space.</td>
+          </tr>
+
+          <tr class="align">
+            <td class="code">align</td>
+            <td>Align</td>
+            <td>Specifies the horizontal alignment of the table within the surrounding context. This attribute is deprecated in HTML5 and it is recommended to use CSS instead.</td>
+          </tr>
+
+          <tr class="bgcolor">
+            <td class="code">bgcolor</td>
+            <td>bgcolor</td>
+            <td>Specifies the horizontal alignment of the table within the surrounding context. This attribute is deprecated in HTML5 and it is recommended to use CSS instead.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div> 
+  </body> 
+</html> 
